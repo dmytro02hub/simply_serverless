@@ -4,6 +4,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Amplify from 'aws-amplify'
 import aws_exports from './aws-exports'
+import '@aws-amplify/ui/dist/style.css'; //fix styles
+//import * as serviceWorker from './serviceWorker'
 
 Amplify.configure(aws_exports);
 ReactDOM.render(
